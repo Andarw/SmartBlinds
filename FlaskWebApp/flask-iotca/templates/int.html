@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Intensity{% endblock %}
+
+{% block content %}
+<h1 class="mt-5">Light intensity graphs</h1>
+<img src="data:image/png;base64,{{ plot_url1 }}" alt="Sample Data Bar Chart">
+<img src="data:image/png;base64,{{ plot_url2 }}" alt="Sample Data Bar Chart">
+{% endblock %}

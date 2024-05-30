@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}Flask Plot{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Smart blinds</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Temperature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bar">Humidity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/int">Light intensity</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>

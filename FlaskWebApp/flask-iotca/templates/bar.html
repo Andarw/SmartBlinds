@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Bar Chart{% endblock %}
+
+{% block content %}
+<h1 class="mt-5">Humidity graphs</h1>
+<img src="data:image/png;base64,{{ plot_url1 }}" alt="Sample Data Bar Chart">
+<img src="data:image/png;base64,{{ plot_url2 }}" alt="Sample Data Bar Chart">
+{% endblock %}
