@@ -24,7 +24,7 @@ while True:
     connection = mysql.connector.connect(
     host='window.cda6cmuk8kg0.eu-north-1.rds.amazonaws.com',
     user='adminpi',
-    password='bmwseria5',
+    password='*********',
     database='blind'
     )
 
